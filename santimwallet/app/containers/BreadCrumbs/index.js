@@ -52,10 +52,10 @@ export class BreadCrumbs extends React.Component {
                 <List>
                   <ListItem>
                     <Typography component="span">9067.7800000</Typography>
-                    BTC
+                    STM
                   </ListItem>
                   <ListItem>
-                    <Typography component="span">127509750.800</Typography>
+                    <Typography component="span">12750.800</Typography>
                     USD
                   </ListItem>
                 </List>
@@ -69,11 +69,11 @@ export class BreadCrumbs extends React.Component {
                 <Typography component="p">Pending Withdrawal</Typography>
                 <List>
                   <ListItem>
-                    <Typography component="span">9067.7800000</Typography>
-                    BTC
+                    <Typography component="span">907.7800000</Typography>
+                    STM
                   </ListItem>
                   <ListItem>
-                    <Typography component="span">127509750.800</Typography>
+                    <Typography component="span">4563.800</Typography>
                     USD
                   </ListItem>
                 </List>

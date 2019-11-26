@@ -164,7 +164,7 @@ class ResetPassword extends Component {
                             <TextField
                                 className="inputStyle"
                                 fullWidth
-                                value="johndoe45@gmail.com"
+                                value="naoll@afpaynetwork.org"
                                 variant="outlined"
                                 disabled
                             />

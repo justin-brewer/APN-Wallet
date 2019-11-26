@@ -4,7 +4,7 @@ ul{
     padding: 0;
 }
 .landingPageTwoMain{
-    background: #A44BFE;
+    background:  rgb(255, 217, 0);
     min-height: 1500px;
 
 }
@@ -586,7 +586,7 @@ body #app{
         }
     }
     .footerArea {
-        background: #893cd5;
+        background:rgb(255, 217, 0) ;
         padding-top: 100px;
         @media (min-width: 768px) and (max-width: 991px) {
           padding-top: 70px;
@@ -604,7 +604,7 @@ body #app{
             p {
               font-weight: 500;
               font-size: 18px;
-              color: #fff;
+              color: rgba(45, 44, 49, 0.9);
               line-height: 28px;
             }
           }
@@ -612,7 +612,7 @@ body #app{
           .footerMenu {
             h3 {
               font-size: 20px;
-              color: #fff !important;
+              color: rgba(45, 44, 49, 0.9) !important;
               font-weight: 700 !important;
               margin-bottom: 25px;
             }
@@ -627,7 +627,7 @@ body #app{
     
                 a {
                   display: inline-block;
-                  color: #fff;
+                  color:rgba(45, 44, 49, 0.9);
                   font-size: 18px;
                   text-decoration: none;
     
@@ -651,12 +651,12 @@ body #app{
     
             p {
               font-size: 17px;
-              color: #fff;
+              color:rgba(45, 44, 49, 0.9);
     
               span {
                 font-weight: 600;
                 display: inline-block;
-                color: #fff;
+                color: rgba(45, 44, 49, 0.9);
                 font-size: 17px;
               }
             }

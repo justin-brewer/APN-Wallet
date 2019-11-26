@@ -214,7 +214,7 @@ class ProfileComponent extends Component {
                             <Grid item lg={5} xs={12}>
                                 <Grid className="profileImage">
                                     <img src={avatar} alt="" />
-                                    <h2>John Doe</h2>
+                                    <h2>Naoll Addisu</h2>
                                     <p>jon.doe@gmail.com</p>
                                     <span>United State</span>
                                 </Grid>

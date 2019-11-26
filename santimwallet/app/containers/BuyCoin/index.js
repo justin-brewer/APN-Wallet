@@ -357,13 +357,13 @@ export class BuyCoin extends React.Component {
           InputLabelProps={{
             shrink: true,
           }}
-          label="For Bit Coin Amount"
+          label="For STM Amount"
           className="inputStyleBasic"
           value="0.007"
-          placeholder="BTC Amount"
+          placeholder="STM Amount"
         />
         <Typography component="p" className="note">
-          Note: We use real time rates for BTC conversion, which means when you
+          Note: We use real time rates for STM conversion, which means when you
           click the purchase button we apply the most recent conversion rate,
           that can cause the YPTO quantity to be slightly different then the
           value we show here We get our conversion rates from{' '}
@@ -394,7 +394,7 @@ export class BuyCoin extends React.Component {
           <ListItem>
             Account Name
             <Typography component="p">
-              <span>:</span> John Doe
+              <span>:</span> Naoll Addisu
             </Typography>
           </ListItem>
           <ListItem>
@@ -432,11 +432,11 @@ export class BuyCoin extends React.Component {
               </Grid>
               <Grid item xs={12} md={6}>
                 <Typography className="section-title" component="h4">
-                  Today’s Crypt Coin Rate
+                  Today’s STM Coin Rate
                 </Typography>
                 <Grid className="todayCoinRate">
                   <Typography component="p">
-                    <span>1</span> Crypto Coin
+                    <span>1</span> STM Coin
                   </Typography>
                   <Typography component="p">=</Typography>
                   <Typography component="p">

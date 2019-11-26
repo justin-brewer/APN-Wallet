@@ -36,7 +36,6 @@ import makeSelectHeader from './selectors';
 import FontAwesome from '../../components/uiStyle/FontAwesome';
 
 import UserDefaultImage from '../../images/author/user-image.jpg';
-import Logo from '../../components/Logo';
 import { toast } from 'react-toastify';
 import Redirect from 'react-router-dom/es/Redirect';
 
@@ -95,7 +94,7 @@ export class Header extends React.Component {
       <Grid className="mainHeadeArea">
         <Grid container alignItems="center" className="container">
           <Grid item xs={12} sm={4} md={2}>
-            <Logo logo={logo} alt="CryptWallet" link="/dashboard" />
+           
           </Grid>
           <Hidden smDown>
             <Grid item md={8}>
@@ -118,9 +117,6 @@ export class Header extends React.Component {
                 <ListItem className="menuItem">
                   <NavLink to="/referral">Referral</NavLink>
                 </ListItem>
-                <ListItem className="menuItem">
-                  <NavLink to="/landingpage">landingpage</NavLink>
-                </ListItem>
               </List>
             </Grid>
           </Hidden>
@@ -137,7 +133,7 @@ export class Header extends React.Component {
                     <Image src={UserDefaultImage} />
                   </Typography>
                   <Typography className="userName" component="span">
-                    John Doe
+                    Naoll Addisu
                   </Typography>
                   <FontAwesome name={!open ? 'caret-down' : 'caret-up'} />
                 </Button>

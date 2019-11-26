@@ -51,8 +51,8 @@ export class Profile extends React.Component {
             <Grid className="userThumb">
               <Image src={UserImage} />
             </Grid>
-            <Typography component="h5">Jhon Doe</Typography>
-            <Typography component="p">jhondoe45@gmail.com</Typography>
+            <Typography component="h5">Naoll Addisu</Typography>
+            <Typography component="p">naoll@afpaynetwork.org</Typography>
             <Typography component="p">United States</Typography>
           </Grid>
           <Grid item sm={8} xs={12} className="userInfo">
@@ -66,7 +66,7 @@ export class Profile extends React.Component {
                   </TableCell>
 
                   <TableCell>
-                    <strong>Jhon Doe</strong>
+                    <strong>Naoll Addisu</strong>
                   </TableCell>
                 </TableRow>
                 <TableRow>
@@ -88,7 +88,7 @@ export class Profile extends React.Component {
                   </TableCell>
 
                   <TableCell>
-                    <strong>jhondoe45@gmail.com</strong>
+                    <strong>naoll@afpaynetwork.org</strong>
                   </TableCell>
                 </TableRow>
                 <TableRow>

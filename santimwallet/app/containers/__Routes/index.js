@@ -72,7 +72,7 @@ export default function Routes() {
                 component={Referral}
             />
 
-            <PublicRoute exact path="/" component={LandingPage} />
+            <PublicRoute exact path="/" component={LoginPage} />
             <PublicRoute exact path="/login" component={LoginPage} />
             <PublicRoute path="/signup" component={SignupPage} />
             <PublicRoute path="/forgot-password" component={ForgotPasswordPage} />

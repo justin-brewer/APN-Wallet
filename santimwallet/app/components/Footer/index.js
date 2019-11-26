@@ -21,7 +21,7 @@ function Footer() {
       <Grid container alignItems="center" className="container">
         <Grid item xs={12} sm={6}>
           <Typography component="p">
-            {currentYear} | All Right Reserved By <strong>Santim Wallet</strong>
+            {currentYear} | All Right Reserved By <strong>African Payment Network</strong>
           </Typography>
         </Grid>
         <Grid item xs={12} sm={6}>
