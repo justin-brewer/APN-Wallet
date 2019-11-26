@@ -53,7 +53,7 @@ class DwLineChart extends React.PureComponent {
             interpolation="natural"
             style={{
               data: {
-                stroke: '#1CA8EE',
+                stroke: 'rgba(45, 44, 49, 0.9)',
                 strokeWidth: 3,
                 strokeLinecap: 'round',
               },
@@ -79,7 +79,7 @@ class DwLineChart extends React.PureComponent {
             interpolation="natural"
             style={{
               data: {
-                stroke: '#F8A2C1',
+                stroke: 'rgb(255, 217, 0)',
                 strokeWidth: 3,
                 strokeLinecap: 'round',
               },

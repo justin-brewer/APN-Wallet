@@ -52,13 +52,13 @@
       display: inline-block;
       width: 15px;
       height: 15px;
-      background: #dff3ff;
+      background: rgb(255, 217, 0) ;
       margin-right: 5px;
       transform: translateY(2px);
     }
     &.withDraw {
       p {
-        background: #5e55e6;
+        background: rgba(45, 44, 49, 0.9);
       }
     }
   }

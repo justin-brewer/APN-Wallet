@@ -114,7 +114,7 @@ export class DashboardPage extends React.Component {
                     { key: '', y: this.state.metric },
                     { key: '', y: 100 - this.state.metric },
                   ]}
-                  colorScale={['#1CA9EE', '#DFF3FF']}
+                  colorScale={['rgb(255, 217, 0)', 'rgba(45, 44, 49, 0.9)']}
                   animate={{
                     duration: 2000,
                   }}
@@ -161,7 +161,7 @@ export class DashboardPage extends React.Component {
                   animate={{ duration: 250 }}
                   barWidth={20}
                   style={{
-                    data: { fill: '#DFF3FF', stroke: '#DFF3FF' },
+                    data: { fill: 'rgb(255, 217, 0)', stroke: 'rgb(255, 217, 0)' },
                   }}
                   data={deposite}
                   x="month"
@@ -171,7 +171,7 @@ export class DashboardPage extends React.Component {
                   animate={{ duration: 250 }}
                   barWidth={20}
                   style={{
-                    data: { fill: '#5E55E6', stroke: '#5E55E6' },
+                    data: { fill: 'rgba(45, 44, 49, 0.9)', stroke: 'rgba(45, 44, 49, 0.9)' },
                   }}
                   data={withDraw}
                   x="month"
