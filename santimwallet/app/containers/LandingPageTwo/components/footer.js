@@ -3,7 +3,7 @@ import { Grid, Button } from '@material-ui/core'
 import { Link } from 'react-router-dom'
 
 // images 
-import logo from 'images/logo.svg';
+import logo from 'images/Logo-ElephantHead.png';
 
 const importantLink = [
     { menu: 'Home', link: '#' },

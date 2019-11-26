@@ -74,7 +74,7 @@ export class Referral extends React.Component {
     email: '',
     all_email: [],
     contact_link:
-      'https://cryptwallet.itech-theme.com/refferal567859djdfhyf/854hgfju',
+      'https://afpaynetwork.itech-theme.com/refferal567859djdfhyf/854hgfju',
     earnings: Earnings,
   };
 

@@ -15,7 +15,7 @@ import injectSaga from 'utils/injectSaga';
 import injectReducer from 'utils/injectReducer';
 import Image from 'components/uiStyle/Images';
 import { Grid, List, ListItem } from '@material-ui/core';
-import logo from 'images/logo.svg';
+import logo from 'images/Logo-ElephantHead.png';
 
 import './style.scss';
 import Typography from '@material-ui/core/Typography';

@@ -19,7 +19,7 @@ import report from 'images/sidebar/report.svg'
 import user from 'images/sidebar/user.svg'
 import wallet from 'images/sidebar/wallet.svg'
 import arrow from 'images/icon/arrow.svg'
-import logo from 'images/logo.svg'
+import logo from 'images/Logo-ElephantHead.png'
 
 
 const SidebarNav = (props) => {

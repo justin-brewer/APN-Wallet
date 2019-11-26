@@ -12,7 +12,7 @@ import Image from 'components/uiStyle/Images';
 import Form from 'components/uiStyle/Form';
 
 // images
-import logo from 'images/logo.svg';
+import logo from 'images/Logo-ElephantHead.png';
 
 import ReactCodeInput from 'react-code-input';
 import '../SignupPage/account.scss';

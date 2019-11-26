@@ -24,7 +24,7 @@ import ReactPhoneInput from 'react-phone-input-2';
 import 'react-phone-input-2/dist/style.css';
 
 // images
-import logo from 'images/logo.svg';
+import logo from 'images/Logo-ElephantHead.png';
 import messages from './messages';
 import showPass from '../../images/icon/eye.svg';
 import pass from '../../images/icon/eye2.svg';

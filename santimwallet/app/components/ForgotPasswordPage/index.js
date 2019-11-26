@@ -15,7 +15,7 @@ import Form from 'components/uiStyle/Form'
 import Joi from 'joi-browser'
 
 // images
-import logo from 'images/logo.svg'
+import logo from 'images/Logo-ElephantHead.png'
 
 import '../SignupPage/account.scss'
 import { toast } from 'react-toastify';

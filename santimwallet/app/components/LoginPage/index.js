@@ -16,7 +16,7 @@ import {
 import messages from './messages';
 
 // uistyle
-import Logo from '../../images/logo.svg';
+import Logo from '../../images/Logo-ElephantHead.png';
 import Image from '../uiStyle/Images';
 import Form from '../uiStyle/Form';
 // images
@@ -137,6 +137,7 @@ class LoginPage extends Component {
           <Grid className="container" container>
             <Grid item lg={6} xs={12}>
               <Grid className="accountImage">
+              <Image src={Logo} alt="logo" />
                 <p>
                   Store and manage digital currencies with ease in the smart and
                   beautiful cryptocurrency wallets.

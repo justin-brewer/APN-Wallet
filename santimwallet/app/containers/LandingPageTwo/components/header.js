@@ -14,7 +14,7 @@ import FontAwesome from 'components/uiStyle/FontAwesome';
 import Image from 'components/uiStyle/Images';
 
 // images 
-import logo from 'images/logo.svg';
+import logo from 'images/Logo-ElephantHead.png';
 
 
 const mainMenu = [

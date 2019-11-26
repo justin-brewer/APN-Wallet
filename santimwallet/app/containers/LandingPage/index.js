@@ -76,7 +76,7 @@ import screen8 from '../../images/screenshort/8.jpg';
 import screen9 from '../../images/screenshort/9.jpg';
 import screen10 from '../../images/screenshort/10.jpg';
 
-import logo from '../../images/logo.svg';
+import logo from '../../images/Logo-ElephantHead.png';
 
 import './landing.scss';
 
