@@ -137,7 +137,6 @@ class LoginPage extends Component {
           <Grid className="container" container>
             <Grid item lg={6} xs={12}>
               <Grid className="accountImage">
-                <Image src={Logo} alt="logo" />
                 <p>
                   Store and manage digital currencies with ease in the smart and
                   beautiful cryptocurrency wallets.

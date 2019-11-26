@@ -9,7 +9,8 @@
 
   .container {
     .accountImage {
-      background: linear-gradient(360deg, rgba(98, 88, 251, 0.9) 0.75%, rgba(134, 126, 255, 0.9) 100%);
+      background: linear-gradient(360deg,     rgba(45, 44, 49, 0.9) 0.75%,
+      rgb(255, 217, 0) 100%);
       backdrop-filter: blur(20px);
       min-height: 734px;
       display: flex;
@@ -129,7 +130,7 @@
 
       button {
         &.submitButton {
-          background: #6258FB;
+          background:rgb(255, 217, 0) ;
           border-radius: 3px;
           width: 100%;
           height: 55px;
