@@ -93,23 +93,23 @@ export class Header extends React.Component {
     return (
       <Grid className="mainHeadeArea">
         <Grid container alignItems="center" className="container">
-          <Grid item xs={12} sm={4} md={2}>
-           
+          <Grid item xs={12} sm={4} md={3}>
+            <div id="gtco-main-nav"><a class="navbar-brand">African Payment Network</a></div>
           </Grid>
           <Hidden smDown>
-            <Grid item md={8}>
+            <Grid item md={7}>
               <List className="mainMenu">
                 <ListItem className="menuItem">
                   <NavLink to="/dashboard">Dashboard</NavLink>
                 </ListItem>
                 <ListItem className="menuItem">
-                  <NavLink to="/buy-coin">Buy Coin</NavLink>
-                </ListItem>
-                <ListItem className="menuItem">
                   <NavLink to="/my-wallet">My Wallet</NavLink>
                 </ListItem>
                 <ListItem className="menuItem">
-                  <NavLink to="/my-profile">My Profile</NavLink>
+                  <NavLink to="/buy-coin">Buy STM</NavLink>
+                </ListItem>
+                <ListItem className="menuItem">
+                  <NavLink to="/my-wallet">Send STM</NavLink>
                 </ListItem>
                 <ListItem className="menuItem">
                   <NavLink to="/settings">Settings</NavLink>
@@ -196,13 +196,13 @@ export class Header extends React.Component {
                 <NavLink to="/dashboard">Dashboard</NavLink>
               </MenuItem>
               <MenuItem>
-                <NavLink to="/buy-coin">Buy Coin</NavLink>
-              </MenuItem>
-              <MenuItem>
                 <NavLink to="/my-wallet">My Wallet</NavLink>
               </MenuItem>
               <MenuItem>
-                <NavLink to="/my-profile">My Profile</NavLink>
+                <NavLink to="/my-wallet">Send STM</NavLink>
+              </MenuItem>
+              <MenuItem>
+                <NavLink to="/buy-coin">Buy STM</NavLink>
               </MenuItem>
               <MenuItem>
                 <NavLink to="/settings">Settings</NavLink>

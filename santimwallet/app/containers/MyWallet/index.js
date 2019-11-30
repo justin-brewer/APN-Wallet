@@ -294,15 +294,13 @@ export class MyWallet extends React.Component {
                   <Grid className="walletMenus">
                     <Button
                       onClick={this.awHandleClickOpen}
-                      className="btn btnBlue"
-                    >
+                      className="btn btnBlue">
                       Add wallet
                     </Button>
                     <Button
                       onClick={this.mcHandleClickOpen}
-                      className="btn btnSky"
-                    >
-                      Move Coin
+                      className="btn btnSky">
+                      Send STM
                     </Button>
                   </Grid>
                 </Grid>

@@ -43,7 +43,7 @@ export class BreadCrumbs extends React.Component {
             </List>
           </Grid>
           <Grid item xs={12} sm={8} className="walletInfo">
-            <Grid className="walletSingle">
+            <Grid className="walletSingle pending">
               <Grid className="icon">
                 <Image src={BitCoinIcon} />
               </Grid>

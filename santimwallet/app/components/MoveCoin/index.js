@@ -51,7 +51,7 @@ function MoveCoin({
     >
       <Grid className="modalInner">
         <DialogTitle className="modalHeader" id="alert-dialog-title">
-          Move Coin
+          Send STM
           <Typography onClick={mcModalCloseHandler} component="span">
             <FontAwesome name="times" />
           </Typography>
@@ -73,8 +73,8 @@ function MoveCoin({
                 <MenuItem value="">
                   <em>Select sender Account</em>
                 </MenuItem>
-                <MenuItem value="rashed">Rashed</MenuItem>
-                <MenuItem value="rashed01">Rashed01</MenuItem>
+                <MenuItem value="rashed">Sender-1</MenuItem>
+                <MenuItem value="rashed01">Sender-2</MenuItem>
               </Select>
             </FormControl>
             <FormControl fullWidth className="mcsInput">
@@ -92,8 +92,8 @@ function MoveCoin({
                 <MenuItem value="">
                   <em>Select reciver Account</em>
                 </MenuItem>
-                <MenuItem value="rashed">Rashed</MenuItem>
-                <MenuItem value="rashed01">Rashed01</MenuItem>
+                <MenuItem value="rashed">NaollA</MenuItem>
+                <MenuItem value="rashed01">Naoll-2</MenuItem>
               </Select>
             </FormControl>
 
@@ -109,7 +109,7 @@ function MoveCoin({
               placeholder="Write wallet name"
             />
             <Button type="submit" className="formSubmitBtn">
-              Move
+              Send
             </Button>
           </Form>
         </DialogContent>
