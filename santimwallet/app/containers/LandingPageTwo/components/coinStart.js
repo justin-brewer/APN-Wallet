@@ -17,7 +17,7 @@ const LandingPageCoinStart = () => {
                             </div>
                             <div className="goal-area">
                                 <h2>Goal
-                                    <span>983450.0 BTC</span>
+                                    <span>983450.0 STM</span>
                                 </h2>
                                 <div className="progress_area">
                                     <div className="progress_bar page_loaded" style={{ width: '70%' }}></div>
@@ -25,7 +25,7 @@ const LandingPageCoinStart = () => {
                             </div>
                             <div className="coin-collection">
                                 <div className="cc-single">
-                                    <h3>BTC Collected</h3>
+                                    <h3>STM Collected</h3>
                                     <h2>56789.066</h2>
                                 </div>
                                 <div className="cc-single">

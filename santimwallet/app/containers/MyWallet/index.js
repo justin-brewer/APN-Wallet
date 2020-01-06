@@ -45,13 +45,13 @@ import { toast } from 'react-toastify';
 const Row = [
   {
     id: 1,
-    name: 'Btc Wallet 1',
+    name: 'STM Wallet 1',
     balance: '0.000000',
     updated_at: '2019-01-24 12:50:17',
   },
   {
     id: 2,
-    name: 'Personal Wallete',
+    name: 'Personal Wallet',
     balance: '0.000000',
     updated_at: '2019-01-24 12:50:17',
   },

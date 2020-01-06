@@ -214,7 +214,7 @@ export class Settings extends React.Component {
                         name="currency"
                       >
                         <MenuItem value="usd">USD</MenuItem>
-                        <MenuItem value="btc">BTC</MenuItem>
+                        <MenuItem value="btc">STM</MenuItem>
                       </Select>
                     </FormControl>
                   </Grid>
