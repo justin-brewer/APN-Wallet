@@ -41,6 +41,7 @@ import MoveCoin from '../../components/MoveCoin';
 import { isAmount } from '../../utils/commonFunctions';
 import SingleWallet from '../SingleWallet';
 import { toast } from 'react-toastify';
+import ShardusCryptoUtils from '../../Shardus/utils/cryptoUtils';
 
 const Row = [
   {
@@ -204,6 +205,15 @@ export class MyWallet extends React.Component {
     if (amount === '' || sender_account === '' || reciver_account === ''){
       toast.error("Please give a valid info!")
     } else {
+
+      let keypair = ShardusCryptoUtils.generateKeyPair()
+      let tx = ShardusCryptoUtils.buildTx({
+        type: "transfer",
+        from: { ...sender_account, keys: keypair },
+        to: { id: reciver_account },
+        amount
+      });
+      ShardusCryptoUtils.send(ShardusCryptoUtils.getServerUrlAddress(),tx)
       this.setState({
         mcModalOpen: false,
         sender_account: '',

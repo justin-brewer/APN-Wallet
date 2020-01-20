@@ -106,7 +106,7 @@ function MoveCoin({
               name="amount"
               value={amount}
               onChange={mcChangeHandler}
-              placeholder="Write wallet name"
+              placeholder="Type Amount"
             />
             <Button type="submit" className="formSubmitBtn">
               Send
